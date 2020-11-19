@@ -9,6 +9,10 @@ Programming courseworks at Peking University
 - 2011-2018 analysis of weather conditions in different cities
 - Automatic system for query and input of student information
 
+## Course: Analysis of Financial Time Series (R)
+- Weekly Homeworks
+- Final projects
+
 ## Course: Data Analysis in Investment (R)
 - Final projects: paper replication
 
