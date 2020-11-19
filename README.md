@@ -8,3 +8,6 @@ Programming courseworks at Peking University
 - Weekly Homeworks
 - 2011-2018 analysis of weather conditions in different cities
 - Automatic system for query and input of student information
+
+## Course: Econometrics
+- Weekly Homeworks
