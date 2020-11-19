@@ -1,0 +1,6 @@
+library(fBasics)
+CFHJ_Daily <- read_excel("Desktop/CFHJ.xls",sheet="Daily")
+CFHJ_Monthly <- read_excel("Desktop/CFHJ.xls",sheet="Monthly")
+basicStats(CFHJ_Daily$return)
+Box.test(CFHJ_Daily$return,lag=5,type='Ljung')
+Box.test(CFHJ_Monthly$ret,lag=4,type='Ljung')
