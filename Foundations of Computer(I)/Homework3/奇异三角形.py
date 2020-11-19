@@ -1,0 +1,31 @@
+import turtle
+def tri(x,n):
+    if n == 0:
+        turtle.seth(60)
+        turtle.fd(x)
+        turtle.right(120)
+        turtle.fd(x)
+        turtle.right(120)
+        turtle.fd(x)
+    else:
+        pos = turtle.pos()
+        tri(x/2,n-1)
+        turtle.seth(60)
+        turtle.fd(x/2)
+        tri(x/2,n-1)
+        turtle.goto(pos)
+        turtle.seth(0)
+        turtle.fd(x/2)
+        tri(x/2,n-1)
+        turtle.goto(pos)
+turtle.setup(1100,800)
+turtle.speed(100)
+turtle.penup()
+turtle.goto(-300,-50)
+turtle.pendown()
+turtle.pensize(2)
+
+lst = input().split()
+x,n = int(lst[0]),int(lst[1])
+tri(x,n)
+turtle.done()
